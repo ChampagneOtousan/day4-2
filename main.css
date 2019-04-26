@@ -46,6 +46,7 @@ p {
 
 .search-form label {
   color: whitesmoke;
+  font-size: 16px; 
 }
 
 .search-form input {
@@ -54,6 +55,10 @@ p {
 
 .search-form input[type='text'] {
   width: 80%;
+}
+
+.search-form input[type='submit'] {
+  width: 15%;
 }
 
 .search-grid {
