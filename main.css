@@ -40,6 +40,22 @@ p {
   color: whitesmoke;
 }
 
+.search-form {
+  text-align: left;
+}
+
+.search-form label {
+  color: whitesmoke;
+}
+
+.search-form input {
+  padding: 5px 10px 5px 5px;
+}
+
+.search-form input[type='text'] {
+  width: 80%;
+}
+
 .search-grid {
   text-align: center;
   padding-top: 6%;
