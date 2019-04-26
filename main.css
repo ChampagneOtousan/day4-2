@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 1.13em;
+}
+
 #navbar {
   background: #0E0E0E;
   text-align: center;
@@ -29,15 +33,74 @@ body {
   background-image: url("https://cdn.vox-cdn.com/thumbor/ufh2N5hs2Jq5GT2xMFrQ_Nodgp8=/0x0:5760x3840/1200x900/filters:focal(2420x1460:3340x2380)/cdn.vox-cdn.com/uploads/chorus_image/image/55306753/shutterstock_274960727.0.jpg");
   background-size: cover;
   background-position: 50% 25%;
-  height: 39vh;
+  height: 100vh;
+}
+
+.main-header h1, .main-header h2, .search-grid p {
+  color: whitesmoke;
+}
+
+.search-grid {
+  text-align: center;
+  padding-top: 6%;
+  justify-content: center;
+  display: grid;
+  grid-template: 300px / 50% 20%;
+  grid-gap: 1%;
+}
+
+.search-grid div {
+  background: rgba(30, 53, 62, 0.72);
+  border-radius: 3px;
+  padding: 1% 2% 3% 2%;
+}
+
+.search-grid div:nth-child(2) {
+  padding: 1% 5% 3% 2%;
+}
+
+.title-head {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 0;
 }
 
 .image-grid {
   display: grid;
+  grid-template: 180px 180px / 330px 330px;
+  grid-gap: 2%;
 }
 
 .image-grid div {
   background-image: url('http://lorempixel.com/output/city-q-c-640-480-5.jpg');
-  width: 400px;
-  height: 200px;
+}
+
+.info-section {
+  margin-top: 3%;
+}
+
+.info-grid {
+  padding: 2%;
+  display: grid;
+  justify-content: center;
+  grid-template: 300px / 50% 40%;
+  grid-gap: 3.8%;
+  text-align: center;
+}
+
+.info-grid p {
+  line-height: 1.6;
+}
+
+.info-grid div button {
+  margin-top: 21%;
+  background: rgba(0, 0, 0, 0);
+  border-color: #fff;
+  border: 1.5px solid #fff;
+  color: #fff;
+  padding: 4% 8%;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
